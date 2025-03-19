@@ -4,6 +4,7 @@ import { queryClient } from "./lib/queryClient";
 import { Toaster } from "@/components/ui/toaster";
 import Header from "@/components/Header";
 import Home from "@/pages/home";
+import CategoryPage from "@/pages/category/[category]";
 import Dashboard from "@/pages/admin/dashboard";
 import Editor from "@/pages/admin/editor";
 import NotFound from "@/pages/not-found";
@@ -15,6 +16,7 @@ function Router() {
       <main>
         <Switch>
           <Route path="/" component={Home} />
+          <Route path="/category/:category" component={CategoryPage} />
           <Route path="/admin/dashboard" component={Dashboard} />
           <Route path="/admin/editor" component={Editor} />
           <Route component={NotFound} />
