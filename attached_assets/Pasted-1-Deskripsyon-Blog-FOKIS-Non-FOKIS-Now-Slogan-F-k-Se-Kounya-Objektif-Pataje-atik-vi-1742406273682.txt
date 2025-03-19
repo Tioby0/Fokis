@@ -1,0 +1,83 @@
+1. Deskripsyon Blog FOKIS
+Non : FOKIS Now
+Slogan : "Fòk Se Kounya."
+Objektif :
+•	Pataje atik, videyo (soti nan chèn YouTube ou), foto, ak debat sou sijè tankou sitiyasyon peyi (Ayiti), devlopman pèsonèl, analiz sosyal, espirityalite, ekonomi, ak entèlèk.
+•	Kreye yon kominote kote jèn kap reflechi, diskite, ak avanse ansanm fizikman, emosyonèlman, espirityèlman, ak entelektyèlman.
+Audyans Sib :
+•	Jèn ant 16-35 an ki enterese nan devlopman pèsonèl, deba sosyal, ak kilti.
+•	Moun k ap chèche resous pou angaje nan chanjman pozitif.
+________________________________________
+2. Estrikti ak Devlopman Blog Lan
+Paj Prensipal Yo
+1.	Akèy (Home) :
+o	Preview atik resan, videyo, ak deba popilè.
+o	Seksyon "Deba Jodi a" pou ankouraje patisipasyon imedya.
+o	Bann k ap defile ak koze enpòtan/atik fokis.
+2.	Atik :
+o	Kategori : Devlopman Pèsonèl, Sitiyasyon Peyi, Espirityalite, Ekonomi, Entèlèk.
+o	Pèmèt kòmantè ak pataje sou rezo sosyal.
+3.	Videyo :
+o	Lyen dirèk ak chèn YouTube ou (embed playlist oswa videyo resan).
+o	Seksyon "Videyo FOKIS" (analiz oswa montaj spesyal).
+4.	Galri Foto :
+o	Foto ki rakonte istwa (egzanp : aktivite kominotè, manifestasyon, pwojè lokal).
+o	Itilize yon galri modèn ak lightbox pou pi bon eksperyans.
+5.	Deba :
+o	Fowòm oswa seksyon kòmantè avèk sijè ouvè (egzanp : "Kijan nou ka amelyore edikasyon ann Ayiti?").
+o	Pèmèt itilizatè pwopoze sijè deba.
+6.	Kontak/Patisipe :
+o	Fòm pou kontakte ou, soumèt atik/ide, oswa vin yon kolaboratè.
+7.	About (FOK SE) :
+o	Eksplikasyon sou misyon blog la ak istwa kreyatè a (ou menm).
+________________________________________
+Paj Admin (Backend)
+•	Fonksyonalite :
+o	Ajoute/Modifye/Efface atik, videyo, ak foto.
+o	Jere deba (aprouve/elimine kòmantè).
+o	Anplwaye yon dashboard senp ak estatistik (egzanp : jan atik yo genyen plis vizit).
+o	Upload medya (foto, PDF, lyen videyo).
+•	Sekirite :
+o	Otantifikasyon de faz (2FA) pou login admin.
+o	Backup otomatik chak semèn.
+________________________________________
+Fonksyonalite Avanse
+•	SEO : Meta-tags, atik optimize ak mo kle.
+•	Abònman : Newsletter pou itilizatè yo ka resevo atik nouvo.
+•	Entegrasyon Rezo Sosyal : Pataje dirèk atik/videyo sou Facebook, Twitter, Instagram.
+________________________________________
+Dark/Light Mode 
+3. Backend ak Firebase/Firestore
+Enstalasyon
+•	Database : Firestore pou:
+o	Koleksyon posts (atik, videyo, podcast).
+o	Koleksyon users (moun ki enskri, admin).
+o	Koleksyon comments (kòmantè ak ID itilizatè).
+•	Otantifikasyon : Firebase Auth pou login/admin ak enskripsyon.
+•	Storage : Firebase Storage pou foto/videyo.
+Fonksyonalite Backend
+•	Admin Panel :
+o	Ajoute/Modifye atik ak medya (CRUD operations).
+o	Jere kòmantè (aprouve/suprime).
+o	Dashboard ak estatistik (egzanp: "Articles 4660").
+•	Sekirite :
+o	Règ Firestore pou limite aksè admin.
+o	Validation done ak sanitization.
+________________________________________
+4. Entegrasyon ak Teknoloji
+Stack Teknik
+•	Frontend : HTML/CSS/JavaScript (ak framework tankou React.js si nesesè).
+•	Backend : Firebase Functions (pou logik ki konplike).
+•	Hosting : Firebase Hosting.
+•	Deployman : Replit ak konfigirasyon Firebase.
+Packages Esansyèl
+•	Firebase SDK : Pou koneksyon ak Firestore/Otantifikasyon.
+•	Quill.js : Editè tèks rich pou paj admin.
+•	Swiper.js : Pou karusèl ak bann defile.
+•	DarkReader : Pou jere dark/light mode.
+________________________________________
+5. Design Detaye (UI/UX)
+•	Font : Kombine Poppins (tit) ak Open Sans (kò tèks).
+•	Ikon : Font Awesome oswa Material Icons.
+•	Grid System : CSS Grid ak Flexbox pou layout propòsyon.
+•	Animasyon : Transisyon senp (egzanp: hover sou atik ak opasite 0.8).
